@@ -19,8 +19,3 @@
     url('webfonts/fa-regular-400.ttf')  format('truetype'), /* Safari, Android, iOS */
     url('webfonts/fa-regular-400.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-
-.bg-vue {
-    background-color: #41b883 !important;
-}
-
