@@ -1,24 +1,4 @@
-@font-face {
-    font-family: 'MyWebFont';
-    src: url('webfonts/fa-brands-400.eot'),
-    url('webfonts/fa-solid-900.eot'),
-    url('webfonts/fa-regular-400.eot'); /* IE9 Compat Modes */
-    src: url('webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('webfonts/fa-brands-400.woff2') format('woff2'), /* Super Modern Browsers */
-    url('webfonts/fa-brands-400.woff') format('woff'), /* Pretty Modern Browsers */
-    url('webfonts/fa-brands-400.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('webfonts/fa-brands-400.svg#svgFontName') format('svg'), /* Legacy iOS */
-    url('webfonts/fa-solid-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('webfonts/fa-solid-900.woff2') format('woff2'), /* Super Modern Browsers */
-    url('webfonts/fa-solid-900.woff') format('woff'), /* Pretty Modern Browsers */
-    url('webfonts/fa-solid-900.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('webfonts/fa-solid-900.svg#svgFontName') format('svg'), /* Legacy iOS */
-    url('webfonts/fa-regular-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('webfonts/fa-regular-400.woff2') format('woff2'), /* Super Modern Browsers */
-    url('webfonts/fa-regular-400.woff') format('woff'), /* Pretty Modern Browsers */
-    url('webfonts/fa-regular-400.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('webfonts/fa-regular-400.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
+
 .content {
     background-color: rgb(226, 158, 171);
     text-align: center;
@@ -31,15 +11,10 @@ body {
     clear: both;
     display: table;
 }
-.myapp {
-    text-align: center;
-    padding: 5px;
-    color: white;
-}
+
 
 [class*="col-"] {
-    float: left;
-    padding: 15px;
+    padding: 10px;
 }
 
 /* For desktop: */
@@ -97,10 +72,28 @@ body {
         width: 100%;
     }
 }
+.myapp {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12.5px;
+}
 
-
+.circle{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #8c0ae2;
+}
 
 .icon {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 13px;
+    width: 70%;
+}
+
+img {
+    display: inline-block;
+    padding-top: 15px;
 }
