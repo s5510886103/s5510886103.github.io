@@ -24,7 +24,7 @@
     text-align: center;
 }
 body {
-    background-color: rgb(201, 14, 226);
+    background-color: rgb(99, 142, 226);
 }
 .row::after {
     content: "";
