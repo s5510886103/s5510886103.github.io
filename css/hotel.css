@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 .row::after {
     content: "";
@@ -113,6 +114,14 @@ body{
     font-size: 24px;
 }
 
+.text-bold {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
 .description {
+    padding-left: 20px;
+}
+.roomtype {
     padding-left: 20px;
 }
