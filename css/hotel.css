@@ -100,16 +100,16 @@ body {
     position: absolute;
     bottom: 8px;
     left: 16px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .bg-buttom-left {
     bottom: 1px;
     position: absolute;
-    background-color: rgba(2, 2, 2, 0.4);
+    background-color: rgba(2, 2, 2, 0.3);
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 
 .text-tab {
@@ -127,20 +127,27 @@ body {
     padding: 10px 20px 10px 20px;
 }
 
+.review {
+    padding: 10px 20px 10px 20px;
+}
+
 .roomtype {
     padding: 10px 20px 10px 20px;
 }
+
 .facilities {
     padding: 10px 20px 10px 20px;
 }
+
 .morning {
     padding: 10px 20px 10px 20px;
 }
 
-.morning .card-header{
+.morning .card-header {
     background-color: white;
 }
-.morning .card-footer{
+
+.morning .card-footer {
     background-color: white;
 }
 
@@ -151,5 +158,23 @@ body {
     border-radius: 20px;
     padding: 20px;
     text-align: center;
+}
+
+.img_container{
+    position: relative;
+    text-align: center;
+    color: #000000;
+}
+.text-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: bold;
+}
+.text-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-weight: bold;
 }
 
