@@ -113,7 +113,6 @@ body {
 }
 
 .text-tab {
-    font-weight: bold;
     font-size: 20px;
     padding: 6px;
 }
@@ -155,9 +154,9 @@ body {
     color: #ffffff;
     background-color: #8c0ae2;
     margin: 10px 20px 2px 20px;
-    border-radius: 20px;
     padding: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 .img_container{
