@@ -1,10 +1,317 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<head lang="en" dir="ltr">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/hotel.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="citytour.html"><img class="img-fluid" src="img/HOTEL-LOGO.png" style="width: 200px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar mx-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                   role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="hotel.html" class="dropdown-item">Hotel</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="roomtype.html" class="dropdown-item">Room Type</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="facilities.html" class="dropdown-item">Facilities</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="comment.html" class="dropdown-item">Comment</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                   role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="morningcall.html" class="dropdown-item">Morning Call</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="roomservices.html" class="dropdown-item">Room Services</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="promotion.html" class="dropdown-item">Promotion</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                   aria-haspopup="true" aria-expanded="false">Travel</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="tourbook.html" class="dropdown-item">Tour Book</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="carbook.html" class="dropdown-item">Car Book</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="taxibook.html" class="dropdown-item">Taxi Book</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                   aria-haspopup="true" aria-expanded="false">Phuket Guide</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="beaches.html" class="dropdown-item">Beaches</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="attraction.html" class="dropdown-item">Attractions</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="foods.html" class="dropdown-item">Foods</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="nightlife.html" class="dropdown-item">Night Life</a>
+                </div>
+            </li>
 
+        </ul>
+
+    </div>
+    <form class="form-inline my-2 my-lg-0">
+        <div class="input-group">
+            <div class="input-group-prepend"><span class="input-group-text" id="basic-addon1"><i
+                    class="fa fa-search"></i></span></div>
+            <input class="form-control mr-sm-0" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"> Search
+            </button>
+        </div>
+    </form>
+</nav>
+<section class="cover-image">
+    <img src="img/800x400.png" class="img-fluid w-100" alt="Responsive image">
+    <div class="bg-buttom-left">
+        <div class="bottom-left">Name Title</div>
+    </div>
+</section>
+<section class="facilities">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9" id="single_tour_desc">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="subject">Facilities</h3>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h4>Swimming Pool</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                               data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                               data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <h5>Swimming Pool</h5>
+                        <p>Enjoy our unique swimming pool in the shady surroundings. Guests can take a dip in the
+                            swimming
+                            pool from all rooms. Enjoy sunbathing on the sundeck, jump into the crystal clear pool for
+                            the
+                            party, and order some drinks right in the pool.</p>
+                        <hr>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h4>Blue Club</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="Blue" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#Blue" data-slide-to="0" class="active"></li>
+                                <li data-target="#Blue" data-slide-to="1"></li>
+                                <li data-target="#Blue" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#Blue" role="button"
+                               data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#Blue" role="button"
+                               data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <h5>Blue Club</h5>
+                        <p>Take a break to relax with a variety of leisure activities. Play a game or two within the
+                            Blue
+                            Club and order some of the most delicious food and drinks served at the bar.</p>
+                        <hr>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h4>Wellness &amp; Spa</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="Wellness" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#Wellness" data-slide-to="0" class="active"></li>
+                                <li data-target="#Wellness" data-slide-to="1"></li>
+                                <li data-target="#Wellness" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#Wellness" role="button"
+                               data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#Wellness" role="button"
+                               data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+
+                        <h5>Wellness &amp; Spa</h5>
+
+                        <p>Leave your worries behind and fully immerse yourself in nature with our traditional Thai
+                            massage
+                            and hydrotherapy treatments. Indulge your senses with our therapeutic body scrub, a skin
+                            rejuvenating remedy that is freshly and ensured to revive the vibrancy in your skin.</p>
+
+                        <hr>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h4>Pool Bar</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="Pool" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#Pool" data-slide-to="0" class="active"></li>
+                                <li data-target="#Pool" data-slide-to="1"></li>
+                                <li data-target="#Pool" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#Pool" role="button"
+                               data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#Pool" role="button"
+                               data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+
+                        <h5>Pool Bar</h5>
+
+                        <p>Soak in the refreshing spectrum of the outdoors and live out the day at a casual pace. Our
+                            Pool
+                            Bar, located close to our free-form swimming pool, offers a delightful respite amidst a
+                            backdrop
+                            of greenery. Swing by for late afternoon snacks or a glass of fresh-squeezed fruit punch,
+                            juices, cocktails and beers when you feel thirsty.</p>
+
+                        <hr>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h4>Meeting Room</h4>
+                    </div>
+                    <div class="col-md-8">
+                        <h2>Meeting Room</h2>
+                        <div id="Meeting" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#Meeting" data-slide-to="0" class="active"></li>
+                                <li data-target="#Meeting" data-slide-to="1"></li>
+                                <li data-target="#Meeting" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/800x400.png" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#Meeting" role="button"
+                               data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#Meeting" role="button"
+                               data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+
+                        <p>Make it a successful meeting or event at Access resort and villa. Our up-to-date facilities
+                            are
+                            suitable for a wide range of requirements and our professional event and banquet teams have
+                            the
+                            kind of expertise that further ensures success. Whether you’re organising a conference,
+                            forum,
+                            seminar, product launch, staff party, dinner or gala wedding, we have everything you need
+                            all in
+                            a single location.</p>
+
+                        <hr>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
