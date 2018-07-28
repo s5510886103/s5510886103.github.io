@@ -81,7 +81,7 @@ body {
 .nav-pills .nav-link {
     color: #ffffff;
     background-color: #b457e2;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-bottom: 2px;
 }
 
@@ -114,7 +114,8 @@ body {
 
 .text-tab {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
+    padding: 6px;
 }
 
 .text-bold {
@@ -123,17 +124,17 @@ body {
 }
 
 .description {
-    padding-left: 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .roomtype {
-    padding-left: 20px;
+    padding: 10px 20px 10px 20px;
 }
 .facilities {
-    padding-left: 20px;
+    padding: 10px 20px 10px 20px;
 }
 .morning {
-    padding-left: 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .subject {

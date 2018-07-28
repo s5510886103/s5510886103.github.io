@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<head lang="en" dir="ltr">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning Call</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/hotel.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="citytour.html">
+        <img class="img-fluid" src="img/HOTEL-LOGO.png" style="width: 200px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                   role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="hotel.html" class="dropdown-item">Hotel</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="roomtype.html" class="dropdown-item">Room Type</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="facilities.html" class="dropdown-item">Facilities</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="comment.html" class="dropdown-item">Comment</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                   role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="morningcall.html" class="dropdown-item">Morning Call</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="roomservices.html" class="dropdown-item">Room Services</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="promotion.html" class="dropdown-item">Promotion</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                   aria-haspopup="true" aria-expanded="false">Travel</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="tourbook.html" class="dropdown-item">Tour Book</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="carbook.html" class="dropdown-item">Car Book</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="taxibook.html" class="dropdown-item">Taxi Book</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                   aria-haspopup="true" aria-expanded="false">Phuket Guide</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="beaches.html" class="dropdown-item">Beaches</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="attraction.html" class="dropdown-item">Attractions</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="foods.html" class="dropdown-item">Foods</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="nightlife.html" class="dropdown-item">Night Life</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section class="cover-image">
+    <img src="img/800x400.png" class="img-fluid w-100" alt="Responsive image">
+    <div class="bg-buttom-left">
+        <div class="bottom-left">Name Title</div>
+    </div>
+</section>
+<section class="morning">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card border-0">
+                    <div class="card-header clearfix">
+                        <h3 class="subject">Review</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>E-mail</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Detail</label>
+                                <textarea rows="4" class="form-control"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary" style="background-color: #8c0ae2;color: white">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
