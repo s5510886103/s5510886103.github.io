@@ -137,6 +137,13 @@ body {
     padding: 10px 20px 10px 20px;
 }
 
+.morning .card-header{
+    background-color: white;
+}
+.morning .card-footer{
+    background-color: white;
+}
+
 .subject {
     color: #ffffff;
     background-color: #8c0ae2;
@@ -145,3 +152,4 @@ body {
     padding: 20px;
     text-align: center;
 }
+
