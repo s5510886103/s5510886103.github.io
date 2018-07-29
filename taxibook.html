@@ -1,10 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<head lang="en" dir="ltr">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Booking</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/travel.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="citytour.html">
+        <img class="img-fluid" src="img/HOTEL-LOGO.png" style="width: 200px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                   role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="hotel.html" class="dropdown-item">Hotel</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="roomtype.html" class="dropdown-item">Room Type</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="facilities.html" class="dropdown-item">Facilities</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="comment.html" class="dropdown-item">Comment</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                   role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="morningcall.html" class="dropdown-item">Morning Call</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="roomservices.html" class="dropdown-item">Room Services</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="promotion.html" class="dropdown-item">Promotion</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                   aria-haspopup="true" aria-expanded="false">Travel</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="tourbook.html" class="dropdown-item">Tour Book</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="carbook.html" class="dropdown-item">Car Book</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="taxibook.html" class="dropdown-item">Taxi Book</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                   aria-haspopup="true" aria-expanded="false">Phuket Guide</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="beaches.html" class="dropdown-item">Beaches</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="attraction.html" class="dropdown-item">Attractions</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="foods.html" class="dropdown-item">Foods</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="nightlife.html" class="dropdown-item">Night Life</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section class="cover-image">
+    <img src="img/800x400.png" class="img-fluid w-100" alt="Responsive image">
+    <div class="bg-buttom-left">
+        <div class="bottom-left">Name Title</div>
+    </div>
+</section>
+<section class="taxi">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="subject">Taxi Booking</h4>
+            </div>
+            <div class="col-md-12">
+                <p class="text-center">Please ﬁll in the form for Taxi request</p>
+            </div>
+            <div class="col-md-12">
+                <div class="card">
+                    <h5 class="card-header">Contact Information</h5>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>First Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>E-mail</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                    <h5 class="card-header">Transfer</h5>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Pick up date</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Pick up time</label>
+                                <input type="time" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>E-mail</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Vihicle Type</label>
+                                <select class="form-control">
+                                    <option value="1">Toyota Soluna Vios / Honda City (Manual)</option>
+                                    <option value="2">Toyota Soluna Vios / Honda City (Automatic)</option>
+                                    <option value="3">Honda Jazz (or similar) Automatic,</option>
+                                    <option value="4">Family Van</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Passenger</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Pick up location</label>
+                                <textarea rows="3" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Drop off location</label>
+                                <textarea rows="3" type="text" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Security Code</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-block"
+                                style="background-color: #8c0ae2;color: white">Submit
+                        </button>
+                    </div>
+                    <br>
+                    <h5 class="card-header">Vihicle Type Gallery</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <img src="img/200x200.png" class="img-thumbnail"
+                                     alt="Image">
+                                <p><strong>Toyota Soluna Vios / Honda City (Manual)</strong></p>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <img src="img/200x200.png" class="img-thumbnail"
+                                     alt="Image">
+                                <p><strong>Toyota Soluna Vios / Honda City (Manual)</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

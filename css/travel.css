@@ -85,10 +85,7 @@ body {
     margin-bottom: 2px;
 }
 
-#360 {
-    width: 100%;
-    max-width: 100%;
-}
+
 
 .cover-image {
     position: relative;
@@ -103,6 +100,7 @@ body {
     font-size: 40px;
     font-weight: bold;
 }
+
 
 .bg-buttom-left {
     bottom: 1px;
@@ -121,24 +119,25 @@ body {
     font-weight: bold;
     padding-bottom: 5px;
 }
-
-.description {
-    padding: 10px 20px 10px 20px;
+.card {
+    border-style:none ;
 }
 
-.review {
-    padding: 10px 20px 10px 20px;
+.card-header {
+    background-color: #8c0ae2;
+    color: white;
+}
+.card-footer {
+    background-color: white;
 }
 
-.roomtype {
+.taxi {
     padding: 10px 20px 10px 20px;
 }
-
-.facilities {
+.car {
     padding: 10px 20px 10px 20px;
 }
-
-.morning {
+.tour {
     padding: 10px 20px 10px 20px;
 }
 
@@ -170,7 +169,6 @@ body {
     left: 16px;
     font-weight: bold;
     font-size: 20px;
-
 }
 .text-right {
     position: absolute;
