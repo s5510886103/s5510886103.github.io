@@ -10,7 +10,7 @@ body {
 }
 
 [class*="col-"] {
-    padding: 5px 10px;
+    padding: 10px;
 }
 
 /* For desktop: */
@@ -70,7 +70,7 @@ body {
 }
 
 .tab-menu {
-    padding: 5px;
+    padding: 20px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -81,8 +81,7 @@ body {
 .nav-pills .nav-link {
     color: #ffffff;
     background-color: #b457e2;
-    margin-right: 2px;
-    margin-left: 2px;
+    margin-right: 5px;
     margin-bottom: 2px;
 }
 
@@ -161,20 +160,5 @@ body {
     font-weight: bold;
 }
 
-.text-left {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center !important;
-}
 
-.text-right {
-    position: absolute;
-    bottom: 20%;
-    right: 12%;
-    font-weight: bold;
-    font-size: 20px;
-}
 
-a{
-    color: black;
-}

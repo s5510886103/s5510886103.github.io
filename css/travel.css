@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
 
@@ -10,7 +10,7 @@ body {
 }
 
 [class*="col-"] {
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 /* For desktop: */
@@ -70,7 +70,7 @@ body {
 }
 
 .tab-menu {
-    padding: 20px;
+    padding: 5px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -152,31 +152,24 @@ body {
 .subject {
     color: #ffffff;
     background-color: #8c0ae2;
-    margin: 10px 20px 2px 20px;
-    padding: 20px;
+    margin: 10px 5px 2px 5px;
+    padding: 18px 25px 18px 25px;
     text-align: center;
     font-weight: bold;
 }
 
-.img_container{
-    position: relative;
-    text-align: center;
-    color: #000000;
-}
 .text-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
     font-weight: bold;
     font-size: 20px;
+    text-align: center!important;
 }
+
 .text-right {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 20%;
+    right: 12%;
     font-weight: bold;
     font-size: 20px;
-
 }
 
 .card-text:last-child{

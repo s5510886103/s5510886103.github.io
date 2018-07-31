@@ -10,62 +10,65 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img class="img-fluid" src="img/logo.png" style="height: 40px"> </a>
+    <a class="navbar-brand" href="citytour.html">
+        <img class="img-fluid" src="img/HOTEL-LOGO.png" style="width: 200px;">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar  mx-auto" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a href="citytour.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item active">
-                <a href="hotel.html" class="nav-link">Hotel</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                   role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="hotel.html" class="dropdown-item">Info</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="roomtype.html" class="dropdown-item">Room Type</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="facilities.html" class="dropdown-item">Facilities</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="comment.html" class="dropdown-item">Comment</a>
+                </div>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
-                   role="button" aria-haspopup="true" aria-expanded="false">Page</a>
+                   role="button" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item">Page1</a>
-                    <a class="dropdown-item">Page2</a>
+                    <a href="morningcall.html" class="dropdown-item">Morning Call</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item">Page3</a>
+                    <a href="roomservices.html" class="dropdown-item">Room Services</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="promotion.html" class="dropdown-item">Promotion</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                   aria-haspopup="true" aria-expanded="false">Feature</a>
+                   aria-haspopup="true" aria-expanded="false">Travel</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item">Feature1</a>
-                    <a class="dropdown-item">Feature2</a>
+                    <a href="tourbook.html" class="dropdown-item">Tour Book</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="carbook.html" class="dropdown-item">Car Book</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="taxibook.html" class="dropdown-item">Taxi Book</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                   aria-haspopup="true"
-                   aria-expanded="false">Blog</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item">Blog1</a>
-                    <a class="dropdown-item">Blog2</a>
-                    <a class="dropdown-item">Blog3</a>
+                   aria-haspopup="true" aria-expanded="false">Phuket Guide</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="beaches.html" class="dropdown-item">Beaches</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="attraction.html" class="dropdown-item">Attractions</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="foods.html" class="dropdown-item">Foods</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="nightlife.html" class="dropdown-item">Night Life</a>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">About</a>
             </li>
         </ul>
-
     </div>
-    <form class="form-inline my-2 my-lg-0">
-        <div class="input-group">
-            <div class="input-group-prepend"><span class="input-group-text" id="basic-addon1"><i
-                    class="fa fa-search"></i></span></div>
-            <input class="form-control mr-sm-0" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"> Search
-            </button>
-        </div>
-    </form>
 </nav>
 
 <section class="content">

@@ -10,7 +10,7 @@ body {
 }
 
 [class*="col-"] {
-    padding: 5px 10px;
+    padding: 5px  10px;
 }
 
 /* For desktop: */
@@ -115,7 +115,7 @@ body {
 
 .text-tab {
     font-size: 20px;
-    padding: 6px 20px 6px 20px;
+    padding: 6px 36px 6px 36px;
 
 }
 
@@ -161,10 +161,12 @@ body {
     font-weight: bold;
 }
 
+
+
 .text-left {
     font-weight: bold;
     font-size: 20px;
-    text-align: center !important;
+    text-align: center!important;
 }
 
 .text-right {
@@ -175,6 +177,3 @@ body {
     font-size: 20px;
 }
 
-a{
-    color: black;
-}
